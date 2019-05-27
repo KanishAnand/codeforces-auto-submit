@@ -7,7 +7,9 @@ I made this script because it seems too boring to me to select file of my code b
 ```bash
 sudo pip3 install selenium
 ```
+``
 Download chromedriver according to your chrome version (you can check your chrome version from link:- chrome://version) from link:    https://sites.google.com/a/chromium.org/chromedriver/downloads
+``
 
 ## Usage
 
