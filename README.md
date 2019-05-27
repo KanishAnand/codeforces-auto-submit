@@ -1,6 +1,7 @@
 # CODEFORCES_SUBMIT
 This is a script to automatically submit codes for codeforces problems only with  one click of running the script.:relaxed:
 I made this script because it seems too boring to me to select file of my code by going to that folder through dropdown menu.:stuck_out_tongue_winking_eye:
+**Currently only for linux and chrome**(will update for windows and firefox soon)
 
 ## Pre-requisite
 ```bash
