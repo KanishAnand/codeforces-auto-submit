@@ -1,14 +1,28 @@
 # CODEFORCES_SUBMIT
 This is a script to automatically submit codes for codeforces problems only with  one click of running the script.:relaxed:
-I made this script because it seems to boring to me to select file of my code by going to that folder through dropdown menu.:stuck_out_tongue_winking_eye:
+I made this script because it seems too boring to me to select file of my code by going to that folder through dropdown menu.:stuck_out_tongue_winking_eye:
 
 ## Pre-requisite
+```bash
+pip3 install selenium
+```
 
+Download chromedriver according to your chrome version from link:   https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 ## Usage
 
-### For first time users
-For first time users , initially you have to run the script 'starter_script.py' given above.Run it using the command (in your terminal) :-  
+### For initial one time settings
+For first time settings,  
+
+1. Go to link : chrome://version and copy the path given in heading of profile path and paste it in place of line :   
+   **options.add_argument("user-data-dir=/home/kanish/.config/google-chrome/Default")**  
+   in both starter_script.py and script.py file. Mention that profile path instead of  */home/kanish/.config/google-chrome/Default*
+
+2. Get path of your chromedriver which you downloaded in pre-requisites and copy it in line :  
+   **driver = webdriver.Chrome(executable_path='/home/kanish/Documents/chromedriver/chromedriver',chrome_options=options)**  
+   in both starter_script.py and script.py file. Mention your path instead of         */home/kanish/Documents/chromedriver/chromedriver*.
+
+3. Initially you have to run the script 'starter_script.py' given above.Run it using the command (in your terminal) :-  
 jj
 
 ```bash
@@ -18,7 +32,8 @@ python3 starter_script.py
 Then a webpage of codeforces will open. Please login in it and do tick the column of **remember me for month** given in codeforces, so that everytime you run the script to submit you code you not have to login always.
 ![img](img.png)
 
-**The script for submission will work only if you are already login**
+**The script for submission will work only if you are already login**  
+
 
 ## To submit your code
 Open the code and you will see language variable in it and there are all options for language below it itself in the code. Please copy the one you want to select and paste in the language variable where there is **language = "GNU G++17 7.3.0"**
