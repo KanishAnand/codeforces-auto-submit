@@ -12,7 +12,6 @@ sudo pip3 install selenium
 ```
 
 Download chromedriver zip file according to your chrome version (you can check your chrome version on `chrome://version`) from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
-``
 
 ## Setup configuration
 
