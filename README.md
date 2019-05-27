@@ -18,7 +18,7 @@ Download chromedriver according to your chrome version from link:   https://site
    in both starter_script.py and script.py file. Mention that profile path instead of  */home/kanish/.config/google-chrome/Default*
 
 2. Get path of your chromedriver which you downloaded in pre-requisites and copy it in line :  
-   **driver = webdriver.Chrome(executable_path='/home/kanish/Documents/chromedriver/chromedriver',chrome_options=options)**  
+   **driver=webdriver.Chrome(executable_path='/home/kanish/Documents/chromedriver/chromedriver',chrome_options=options)**  
    in both starter_script.py and script.py file. Mention your path instead of         */home/kanish/Documents/chromedriver/chromedriver*.
 
 3. Initially you have to run the script 'starter_script.py' given above.Run it using the command (in your terminal) :-  
