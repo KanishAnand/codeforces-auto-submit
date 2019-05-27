@@ -35,7 +35,7 @@ Then a webpage of codeforces will open. Please login in it and do tick the colum
 
 ## To submit your code
 Open the code and you will see language variable in it and there are all options for language below it itself in the code. Please copy the one you want to select and paste in the language variable where there is **language = "GNU G++17 7.3.0"**
-eg. If you want to select python language then it should be like **language = "Python 3.7.2".  
+eg. If you want to select python language then it should be like **language = "Python 3.7.2"**.  
 
 *By default I have it is already selected as C++ so incase you want to submit in C++ no need to change it*
 
