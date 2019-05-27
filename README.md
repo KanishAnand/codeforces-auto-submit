@@ -22,7 +22,6 @@ Download chromedriver according to your chrome version from link:   https://site
    in both starter_script.py and script.py file. Mention your path instead of         */home/kanish/Documents/chromedriver/chromedriver*.
 
 3. Now you have to run the script 'starter_script.py' given above.Run it using the command (in your terminal) :-  
-jj
 
 ```bash
 python3 starter_script.py
