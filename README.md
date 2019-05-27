@@ -57,6 +57,7 @@ It will ask you for problem code no
  
  And then you will be asked relative path of your code from current directory.  
  eg. If your code is in the same directory from where you are running this script then simply input code no eg.1167G.cpp  
+ (It is preferrable to keep script in folder where your code is so that you only have to write code name as relative path)
  
  *In this script I have mentioned link for problems opened through problemset i.e having link like 'https://codeforces.com/problemset/problem/1167/G' , If you want it to submit for other links like in contest then you can change the link in code in line 'driver.get('write you link here for the problem')'*
 
