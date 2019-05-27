@@ -5,8 +5,9 @@ import os
 
 #select your language from options given below and paste that to this language variable removing given GNU G++17 7.3.0 and please don't remove double inverted commas("")
 
+####################################### LANGUAGE #####################################################
 language = "GNU G++17 7.3.0"
-
+#####################################################################################################
 # GNU GCC C11 5.1.0								# Delphi 7					
 # Clang++17 Diagnostics							# Free Pascal 3.0.2
 # GNU G++11 5.1.0								# PascalABC.NET 3.4.2
@@ -33,7 +34,7 @@ l=len(problem)
 part1 = problem[0:l-1]
 part2 = problem[l-1:l]
 st = part1 + '/' + part2
-
+print('https://codeforces.com/problemset/problem/' + st)
 #path of code
 
 print("Enter relative path of your code to submit from current directory of the script eg. 1167G.cpp")
@@ -44,9 +45,12 @@ print(pth)
 
 #to get stored profile
 
+
+################################################### CHANGES TO BE MADE HERE  #####################################################
 options=webdriver.ChromeOptions()
 options.add_argument("user-data-dir=/home/kanish/.config/google-chrome/Default")
-driver = webdriver.Chrome(chrome_options=options)
+driver = webdriver.Chrome(executable_path='/home/kanish/Documents/chromedriver/chromedriver',chrome_options=options)
+##################################################################################################################################
 
 #open the link
 
@@ -63,3 +67,5 @@ driver.execute_script(js,language)
 dropFileArea = driver.find_element_by_xpath("//input[@name='sourceFile']");
 dropFileArea.send_keys(pth);
 driver.find_element_by_xpath("//input[@value='Submit']").click();
+
+#written by : Kanish Anand
