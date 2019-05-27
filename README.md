@@ -51,6 +51,6 @@ It will ask you for problem code no
  
  *In this script I have mentioned link for problems opened through problemset i.e having link like 'https://codeforces.com/problemset/problem/1167/G' , If you want it to submit for other links like in contest then you can change the link in code in line 'driver.get('write you link here for the problem')'*
 
-And now simply press enter and see the magic :satisfied:.
+And now simply press enter and see the results :satisfied:.
 
 
