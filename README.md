@@ -12,7 +12,6 @@ Download chromedriver according to your chrome version from link:   https://site
 ## Usage
 
 ### For initial one time settings
-For first time settings,  
 
 1. Go to link : chrome://version and copy the path given in heading of profile path and paste it in place of line :   
    **options.add_argument("user-data-dir=/home/kanish/.config/google-chrome/Default")**  
