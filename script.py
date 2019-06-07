@@ -8,6 +8,8 @@ import os
 ####################################### LANGUAGE #####################################################
 language = "GNU G++17 7.3.0"
 #####################################################################################################
+
+###################################### OPTIONS ######################################################
 # GNU GCC C11 5.1.0								# Delphi 7					
 # Clang++17 Diagnostics							# Free Pascal 3.0.2
 # GNU G++11 5.1.0								# PascalABC.NET 3.4.2
@@ -23,17 +25,30 @@ language = "GNU G++17 7.3.0"
 # Kotlin 1.3.10									# JavaScript V8 4.8.0
 # OCaml 4.02.1									# Node.js 9.4.0
 
+#####################################################################################################
 
 #problem code
 
 print("Enter problem code eg : if problem is 1167G type 1167G")
 problem=""
 problem=input()
+part1=""
+part2=""
 
 l=len(problem)
-part1 = problem[0:l-1]
-part2 = problem[l-1:l]
+for i in range(l):
+	if(not problem[i].isdigit()):
+		break
+	else:
+		part1 = part1 + problem[i]
+
+for j in range(i,l):
+	part2 = part2 + problem[j]
+# part1 = problem[0:l-1]
+# part2 = problem[l-1:l]
 st = part1 + '/' + part2
+#print(part1)
+#print(part2)
 print('https://codeforces.com/problemset/problem/' + st)
 #path of code
 
